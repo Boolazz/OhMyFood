@@ -1,0 +1,35 @@
+ul {
+    list-style: none;
+  }
+
+.footer{
+    background-color: #363636;
+    width: auto;
+    &__logo{
+        height: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
+      }
+    &__list{
+        margin-left: 20px;
+        margin-right: 70px;
+        padding-left: 0px;
+        padding-bottom: 25px;
+        width: auto;
+        &__nav {
+            padding-bottom: 12px;
+            color: white;
+            font-family: roboto;
+          }
+    }  
+  }
+ 
+  .couverts-icon{
+    height: 15px;
+    padding-right: 5px;
+  }
+  
+  .handshake-icon{
+    height: 15px;
+    padding-right: 5px;
+  }
